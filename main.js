@@ -42,16 +42,16 @@ const validateCred = (arr) => {
     };
      
     const initialVal = 0;
-    let sum = testArr.reduce((preVal,curVal) => preVal + curVal,initialVal);
+    let sum = testArr.reduce((preVal,curVal) => preVal + curVal, initialVal);
     return sum % 10 === 0 ? true : false;
     
 };
 //test logs
- console.log(validateCred(valid1));
- console.log(validateCred(invalid2));
-// console.log(validateCred(invalid3));
+// console.log(validateCred(valid1));
+// console.log(validateCred(invalid2));
+// console.log(validateCred(valid3));
 // console.log(validateCred(invalid4));
-// console.log(validateCred(invalid5));
+// console.log(validateCred(valid5));
 
 
 //this function takes in an array of cards and runs each through the validatecred() and returns new array of invalid cards.
